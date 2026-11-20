@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+	width: 200px;
+	border: 1px solid black;
+	display: inline-flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.hero-img{
+	width: 500px;
+	justify-content: center;
+}
+.img{
+	width: 90px;
+	justify-content: center;
+}
